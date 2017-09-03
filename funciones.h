@@ -2,23 +2,50 @@
 #define FUNCIONES_H_INCLUDED
 #include <stdio.h>
 
+/** @brief Realiza la suma de A y B
+ *  y lo muestra en pantalla
+ *
+ *  @param a El primer operando.
+ *  @param b El segundo operando
+ *  @return Void.
+ */
 void sumar(float a, float b)
 {
     float resultado = a + b;
     printf("El resultado es %.2f \n", resultado);
 }
 
+/** @brief Realiza la resta de A y B
+ *  y lo muestra en pantalla
+ *
+ *  @param a El primer operando.
+ *  @param b El segundo operando
+ *  @return Void.
+ */
 void restar(float a, float b)
 {
     float resultado = a - b;
     printf("El resultado es %.2f \n", resultado);
 }
-
+/** @brief Realiza la multiplicación de A y B
+ *  y lo muestra en pantalla
+ *
+ *  @param a El primer operando.
+ *  @param b El segundo operando
+ *  @return Void.
+ */
 void multiplicar(float a, float b)
 {
     float resultado = a * b;
     printf("El resultado es %.2f \n", resultado);
 }
+/** @brief Realiza la divicion de A y B
+ *  y lo muestra en pantalla. Valida no realizar division por 0
+ *
+ *  @param a El primer operando.
+ *  @param b El segundo operando
+ *  @return Void.
+ */
 void dividir(float a, float b)
 {
     if (b != 0)
@@ -31,7 +58,12 @@ void dividir(float a, float b)
         printf("Operacion no permitida: Divicion por zero \n");
     }
 }
-
+/** @brief Calcula el factorial de A
+ *  y lo muestra en pantalla
+ *
+ *  @param a El numero sobre el cual calcular el factorial
+ *  @return Void.
+ */
 void factorial(float a)
 {
     int i;
