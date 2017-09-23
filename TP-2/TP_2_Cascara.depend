@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1505769576 source:/home/nicolas/Desktop/algoritmos/TP_2_Cascara/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1505769564 /home/nicolas/Desktop/algoritmos/TP_2_Cascara/funciones.h
+
+1505768232 source:/home/nicolas/Desktop/algoritmos/TP_2_Cascara/funciones.c
+	"funciones.h"
+	<stdio.h>
+
